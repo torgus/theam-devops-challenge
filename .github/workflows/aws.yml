@@ -8,7 +8,7 @@ env:
   ECS_SERVICE: app-service                 
   ECS_CLUSTER: theam               
   ECS_TASK_DEFINITION: app-task.json                                       
-  CONTAINER_NAME: hello-world           
+  CONTAINER_NAME: app-container        
 permissions:
   contents: read
 jobs:
