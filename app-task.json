@@ -1,0 +1,31 @@
+{
+  "containerDefinitions": [
+    {
+      "name": "app-container",
+      "image": "",
+      "cpu": 0,
+      "portMappings": [
+        {
+          "containerPort": 3000,
+          "hostPort": 3000,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true,
+      "environment": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "systemControls": []
+    }
+  ],
+  "family": "app-task",
+  "executionRoleArn": "arn:aws:iam::122610485490:role/ecsTaskExecutionRole",
+  "networkMode": "awsvpc",
+  "volumes": [],
+  "placementConstraints": [],
+  "requiresCompatibilities": [
+    "EC2"
+  ],
+  "cpu": "256",
+  "memory": "256"
+}
