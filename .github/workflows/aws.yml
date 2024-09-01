@@ -7,7 +7,7 @@ env:
   ECR_REPOSITORY: theam      
   ECS_SERVICE: app-service                 
   ECS_CLUSTER: theam               
-  ECS_TASK_DEFINITION: app-task                                       
+  ECS_TASK_DEFINITION: app-task.json                                       
   CONTAINER_NAME: hello-world           
 permissions:
   contents: read
