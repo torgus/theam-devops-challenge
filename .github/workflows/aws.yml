@@ -4,10 +4,10 @@ on:
     branches: [ "main" ]
 env:
   AWS_REGION: us-east-1                   
-  ECR_REPOSITORY: theam-challenge           
-  ECS_SERVICE: theam-challenge                 
-  ECS_CLUSTER: theam-challenge                 
-  ECS_TASK_DEFINITION: theam-challenge                                         
+  ECR_REPOSITORY: theam      
+  ECS_SERVICE: app-service                 
+  ECS_CLUSTER: theam               
+  ECS_TASK_DEFINITION: app-task                                       
   CONTAINER_NAME: hello-world           
 permissions:
   contents: read
